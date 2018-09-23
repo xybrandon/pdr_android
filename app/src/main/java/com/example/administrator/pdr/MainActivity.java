@@ -140,7 +140,7 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 Message msg = new Message();
-                msg.what = 1;
+                msg.what = 12;
                 msg.obj = pdrData;
                 mHandler.sendMessage(msg);
             }
