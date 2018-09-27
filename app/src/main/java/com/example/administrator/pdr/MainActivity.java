@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
         mSensorMag = mSensorManger.getDefaultSensor(Sensor.TYPE_MAGNETIC_FIELD);
 
         Button bt1 = (Button)findViewById(R.id.b1);
-        bt1.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View view) {
                 // 注册传感器
