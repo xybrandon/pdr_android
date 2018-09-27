@@ -140,7 +140,7 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 Message msg = new Message();
-                msg.what = 14;
+                msg.what = 15;
         }
     }
 
