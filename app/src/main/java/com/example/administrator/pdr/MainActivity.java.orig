@@ -141,9 +141,7 @@ public class MainActivity extends AppCompatActivity {
 
                 Message msg = new Message();
                 msg.what = 12;
-        }
-    }
-
+                msg.obj = pdrData;
     // 开启一个新线程用于UI显示
     private static Handler mHandler = new Handler() {
         public void handleMessage(Message msg) {
